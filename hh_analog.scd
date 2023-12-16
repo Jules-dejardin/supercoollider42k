@@ -17,7 +17,7 @@ SynthDef(\hh, {
 }).add;
 )
 
-~t = Synth(\hh, [\tone,4000, \rq, 0.3, \rel, 0.5, \amp,0]);
+~t = Synth(\hh, [\tone,5000, \rq, 0.3, \rel, 0.5, \amp,0]);
 
 ~t=Synth(\hh, [\tone, [4000,5000,6000,7000,8000,9000].choose, \rel, [0.1,0.25,0.5].choose, \rq,[0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9].choose, \amp, 0]);
 ~t.set(\tone, 6000);
